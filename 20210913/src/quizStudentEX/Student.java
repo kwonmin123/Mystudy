@@ -6,6 +6,7 @@ public class Student {
 	//스튜던스 클래스 필드는 다음과 같다
 	
 	private String studentNum;
+	private int hassh;
 
 	public Student(String studentNum) {
 		super();
@@ -26,5 +27,12 @@ public class Student {
 		// TODO Auto-generated method stub
 		return this.getStudentNum().hashCode();
 	}
+
+@Override
+public String toString() {
+	return "Student [studentNum=" + studentNum + ", hassh=" + hassh + "]";
+}
+
+
 	
 }
