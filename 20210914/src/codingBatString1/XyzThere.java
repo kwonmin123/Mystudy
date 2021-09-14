@@ -1,6 +1,5 @@
 package codingBatString1;
 
-import java.util.Arrays;
 
 public class XyzThere {
 
@@ -9,6 +8,7 @@ public class XyzThere {
 	String str= "sdsd.sd.sdsd";
 		System.out.println(str.contains("dsd"));
 		
+	
 		
 		String[] sp=str.split("[s]");
 		System.out.println(sp[2]);
