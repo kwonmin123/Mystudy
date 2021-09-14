@@ -17,10 +17,14 @@ public class XyzThere {
 	}
 
 	public static boolean xyzThere(String str) {
-		  String[] sp=str.split("\\.");
-	System.out.println(Arrays.toString(sp));
-	return  sp[0].contains("xyz");
-				  
-	}
-
+	    if(str.length() >= 3 && str.substring(0, 3).equals("xyz"))
+	        return true;
+	          
+	    for(int i = 1; i < str.length() - 2; i++) {
+	        if(str.charAt(i - 1) != '.' && str.substring(i, i + 3).equals("xyz"))
+	            return true;
+	    }
+	                          
+	    return false;
+	    }
 }
