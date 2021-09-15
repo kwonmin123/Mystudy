@@ -1,8 +1,11 @@
 package codingBat;
 
 public class RepeatSep {
-
-	public String repeatSeparator(String word, String sep, int count) {
+public static void main(String[] args) {
+	
+	System.out.println(repeatSeparator("dd","sss",3));
+}
+	public static String repeatSeparator(String word, String sep, int count) {
 		  String ret="";
 		  for(int i=0;i<count*2-1;i++){
 		    if(i%2==1){
