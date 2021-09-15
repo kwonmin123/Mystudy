@@ -14,7 +14,7 @@ public class ListQuiz01 {
 		Scanner sc =new Scanner(System.in);
 		boolean run = true;
 		while(run) {
-			System.out.print("l : list , e : exit 입력");
+			System.out.print("l : list ,r : 제거 e : exit 입력");
 			String input1 =sc.nextLine();
 			if(input1.equals("e")) {
 				break;
@@ -24,7 +24,14 @@ public class ListQuiz01 {
 				
 				}
 				continue;
-			} else list1.add(input1);
+			} else if(input1.equals("r")) {
+				try {
+					list1.remove(list1.size()-1);	
+				} catch (Exception e) {
+					// TODO: handle exception
+				}
+			} 
+			else list1.add(input1);
 			
 			
 		}
