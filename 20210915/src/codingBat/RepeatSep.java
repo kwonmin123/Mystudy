@@ -8,10 +8,10 @@ public static void main(String[] args) {
 	public static String repeatSeparator(String word, String sep, int count) {
 		  String ret="";
 		  for(int i=0;i<count*2-1;i++){
-		    if(i%2==1){
-		      ret+=sep;
-		    }  else ret+=word;
-		    
+//		    if(i%2==1){
+//		      ret+=sep;
+//		    }  else ret+=word;
+		 ret =  (i%2==1) ? ret+sep : ret+word;
 		  
 		  }
 		  return ret;
