@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ListQuiz01 {
-
+	
 	public static void main(String[] args) {
 		// l을 입력받으면 리스트 목록이 출력
 		// e를 입력받으면 종료
