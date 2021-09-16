@@ -32,6 +32,12 @@ class Test01 {
 		assertEquals(2,am.maxIndex(l1));
 		assertEquals(new ArrayList<>(Arrays.asList(3,6)),mm.minmax(l1));
 		
+		Mirror e = new Mirror();
+		//ArrayList<Integer> l2= true, e.mirror(Arrays.asList(1, 2, 3, 4, 3, 2, 1));
+		//assertEquals(true, e.mirror((ArrayList<Integer>) Arrays.asList(1, 2, 3, 4, 3, 2, 1)));
+		assertEquals(true, e.mirror(Arrays.asList(1, 2, 3, 4, 3, 2, 1)));
+		//assertEquals(false, e.mirror(Arrays.asList(1, 2, 3, 1, 2, 3)));
+		
 		
 //		assertEquals(88,s1.sumsum("0 55 33"));
 //		assertEquals(88,s1.sumsum("0 55 33"));
