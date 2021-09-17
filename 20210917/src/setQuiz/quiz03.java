@@ -2,7 +2,10 @@ package setQuiz;
 
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class quiz03 {
@@ -14,6 +17,8 @@ public class quiz03 {
 		Set<Integer> set = new HashSet<>();
 		Set<Integer> result = new HashSet<>();
 
+		List arr2 = new ArrayList<>(Arrays.asList(arr));
+		ArrayList<Integer> arr3 = new ArrayList<Integer>(Arrays.asList(arr));
 		for (int e : arr) {
 			if (set.contains(e)) {
 				result.add(e);
