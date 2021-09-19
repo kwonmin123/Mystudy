@@ -8,6 +8,8 @@ public class p776Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		String a = "ddd";
+		System.out.println(a+a);
 		Set<Student> set = new HashSet<Student>();
 		set.add(new Student(1, "홍"));
 		set.add(new Student(2, "이"));
