@@ -16,6 +16,7 @@ MapQuiz09 e = new MapQuiz09();
 		
 		String s = "keysvalues";
 		
+		
 		Map<Character, Integer> map = e.countCharacter(s);
 		
 		assertEquals(8, map.size());
