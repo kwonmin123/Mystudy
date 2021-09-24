@@ -1,6 +1,7 @@
 package leetcodeQuiz;
 
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,7 +19,7 @@ public class No1512 {
         	
         	  ret=ret+(map.get(key)*(map.get(key)-1))/2;
          }
-         
+        
          return ret;
      }
 }
