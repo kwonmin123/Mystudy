@@ -1,6 +1,6 @@
 package genericTextBook;
 
-public class Container<T> {
+public class Container01<T> {
 T t;
 
 public T get() {
