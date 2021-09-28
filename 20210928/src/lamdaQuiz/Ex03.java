@@ -2,6 +2,7 @@ package lamdaQuiz;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Ex03 {
 	public static void main(String[] args) {
@@ -16,5 +17,14 @@ public class Ex03 {
 		
 		
 		System.out.println(arr1); // [3, 5]
+	
+	
+	List<String> list = new ArrayList<>(Arrays.asList("apple", "java", "abc", "amond", "spring"));
+		
+		// List removeIf 활용
+		list.removeIf(a-> a.startsWith("a"));
+		
+		
+		System.out.println(list); // [apple, abc, amond]
 	}
 }
