@@ -20,7 +20,7 @@ public class Ex03 {
 	
 	
 	List<String> list = new ArrayList<>(Arrays.asList("apple", "java", "abc", "amond", "spring"));
-		
+	
 		// List removeIf 활용
 		list.removeIf(a-> a.startsWith("a"));
 		
