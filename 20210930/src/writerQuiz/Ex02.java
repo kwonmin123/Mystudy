@@ -13,7 +13,7 @@ public class Ex02 {
 		String des ="C:\\Users\\kwon\\Desktop\\test\\copied.txt";
 		FileWriter test3= new FileWriter(src);
 		test3.write("abcd1234ABCD9876");
-		test3.close();
+		test3.close();//닫고 쓰자맨 밑으로 가면 실행안됨
 		//원본 내용
 		//abcd1234ABCD9876
 		//복사 내용
