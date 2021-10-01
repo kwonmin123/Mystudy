@@ -30,6 +30,7 @@ public static void main(String[] args) throws Exception {
 	os.close();
 	
 }
+
 public static OutputStream getOutputStream(String file) throws Exception{
 	return new FileOutputStream(file);
 }
