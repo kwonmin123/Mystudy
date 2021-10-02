@@ -1,7 +1,5 @@
 package codingBatString3;
 
-import java.util.HashMap;
-
 public class Ex09 {
 	public int maxBlock(String str) {
 		int n=0, res=0;
