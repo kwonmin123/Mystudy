@@ -26,6 +26,14 @@ public class Ex04 {
 
 		return true;
 	}
+	
+	public boolean gHappy2(String str) {
+		str = str.replaceAll("g{2,}", "");
+
+		return !str.contains("g");
+		}
+	
+	
 }
 
 
