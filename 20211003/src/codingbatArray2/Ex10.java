@@ -1,11 +1,13 @@
 package codingbatArray2;
 
 public class Ex10 {
-	public boolean only14(int[] nums) {
-		  for(int a : nums){
-		    if(a!=1&&a!=4) return false;
+	public int[] fizzArray(int n) {
+		  int[] ret =new int[n];
+		  
+		  for(int i=0;i<n;i++){
+		    ret[i]=i;
 		  }
-		  return true;
+		  return ret;
 		}
 
 }

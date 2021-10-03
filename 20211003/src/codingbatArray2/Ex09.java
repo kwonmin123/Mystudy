@@ -1,13 +1,17 @@
 package codingbatArray2;
 
 public class Ex09 {
-	public int[] fizzArray(int n) {
-		  int[] ret =new int[n];
-		  
-		  for(int i=0;i<n;i++){
-		    ret[i]=i;
-		  }
-		  return ret;
+	public boolean more14(int[] nums) {
+	int cnt1 =0;
+	int cnt4 =0;
+		for(int a  : nums) {
+			if(a==1) {cnt1++;}
+			if(a==4) {cnt4++;}
+			
+			
 		}
+		
+		return cnt1>cnt4;
+	}
 
 }
